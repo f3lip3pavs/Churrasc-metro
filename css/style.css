@@ -1,0 +1,31 @@
+#container{
+    margin: auto;
+    background-color: aliceblue;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userInput{
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box; /*?*/
+    padding: 5px;
+}
+
+#calc{
+    display: block;
+    width: 70px;
+}
+
+#resultList{
+    list-style: none;
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.line{
+    margin-bottom: 10px;
+}

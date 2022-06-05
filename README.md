@@ -7,7 +7,8 @@
 
 ### SOBRE:
 
-    A ideia é simples! calcular a quantidade de comida e bebida necessários para um churrasco baseando-se no número de pessoas/crianças e eduração.
+    A ideia é simples! calcular a quantidade de comida e bebida necessários para um churrasco baseando-se no número de pessoas/crianças 
+    e eduração.
 
 ### Composição do projeto:
 
@@ -22,4 +23,7 @@
 
 + Recursos finais da página:
 
-        A calculadora se encontrara na parte esquerda da tela, inicialmente contará com apenas três campos, sendo eles, quantidade de adultos, quantidade de crianças e duração do evento. O usuário poderá selecionar os icones das bebidas e alimentos de acordo com sua necessidade e arrasta-los para dentro da calculadora. O resultado ocupará a maior parte da tela e será exibido ao lado direito da página.
+        A calculadora se encontrara na parte esquerda da tela, inicialmente contará com apenas três campos, sendo eles, quantidade de 
+        adultos, quantidade de crianças e duração do evento. O usuário poderá selecionar os icones das bebidas e alimentos de 
+        acordo com sua necessidade e arrasta-los para dentro da calculadora. O resultado ocupará a maior parte da tela e será exibido 
+        ao lado direito da página.

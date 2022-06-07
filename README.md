@@ -10,9 +10,13 @@
     A ideia é simples! calcular a quantidade de comida e bebida necessários para um churrasco baseando-se no número de pessoas/crianças 
     e eduração.
 
+## 1° protótipo da pagina:
+<br><br>
+<img src="./assets/prototype_1.png">
+<br>
 ### Composição do projeto:
 
-+ Em andamento:
++ Concluído:
 
         Logica de programação da calculadora;
 

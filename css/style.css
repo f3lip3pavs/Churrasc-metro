@@ -1,17 +1,29 @@
+body{
+    margin: 0;
+    background-color: #231709;
+}
+/*#231709*/
 #container{
-    margin: auto;
-    background-color: aliceblue;
+    position: absolute;
+    background-color: #9a7b4f;
     max-width: 300px;
-    padding: 20px;
-    border-radius: 10px;
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 5px 0px #00000066;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .userInput{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 100%;
     box-sizing: border-box; /*?*/
-    padding: 5px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 5px 3px #00000066;
 }
 
 #calc{
@@ -28,4 +40,17 @@
 
 .line{
     margin-bottom: 10px;
+}
+
+h1{
+    font-family: 'Water Brush', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #202020;
+}
+
+#icon_churrasco{
+    position: absolute;
+    left: 500px;
+    top: 150px;
 }

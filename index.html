@@ -6,11 +6,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Churrascômetro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
 </head>
 <body style="background-color: #f2efdf">
-    <img id="icon_churrasco" src="./assets/icon_churrasco-removebg-preview.png">
     <div id="container">
         <h1>Churrascômetro</h1>
         <input id="adult" class="userInput" type="text" placeholder="Adultos">
@@ -21,6 +20,18 @@
         <ul id="resultList"></ul>
     </div>
 
+    <ul id="listInput">
+        <li><img src="./assets/beer.png" class="icon" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"></li>
+        <li><img src="./assets/coke.png" class="icon" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"></li>
+        <li><img src="./assets/meat.png" class="icon" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"></li>
+    </ul>
+
+    <div id="containerResults">
+        <div class="resultCard"><img src="./assets/beer.png" class="iconCard"></div>
+        <div class="resultCard"><img src="./assets/coke.png" class="iconCard"></div>
+        <div class="resultCard"><img src="./assets/meat.png" class="iconCard"></div>
+    </div>
+    
     <script src="./Js/java.js"></script>
 </body>
 </html>

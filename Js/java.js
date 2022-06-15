@@ -44,3 +44,12 @@ function setList(){
 
 }
 
+function mouseOver(over){
+    over.style.backgroundColor = "#ddd"
+    over.style.width = "110px";
+}
+
+function mouseOut(out){
+    out.style.backgroundColor = "#f2efdf"
+    out.style.width = "100px";
+}

@@ -12,7 +12,7 @@
 
 ## 1° protótipo da pagina:
 <br><br>
-<img src="./assets/prototype_1.png">
+![Prototype_1](https://user-images.githubusercontent.com/74160667/174497183-905f2922-9936-4ea0-9c5c-25f5877f4bc0.png)
 <br>
 ### Composição do projeto:
 

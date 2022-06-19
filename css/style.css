@@ -4,18 +4,35 @@ body{
     background-image: url('../assets/icon_churrasco-removebg-preview.png');
     background: no-repeat;
 }
+/* f2efdf */
 
+#logo{
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: #444;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+    height: 40%;
+}
+
+/* #9a7b4f */
 #container{
     position: absolute;
-    background-color: #9a7b4f;
+    background-color: rgb(211, 206, 206);
     max-width: 300px;
     height: 100%;
     padding-right: 20px;
     padding-left: 20px;
-    box-shadow: 5px 0px #00000066;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
 }
 
 .userInput{
@@ -26,11 +43,22 @@ body{
     border-style: none;
     border-radius: 10px;
     box-shadow: 5px 3px #00000066;
+    text-align: center;
 }
 
 #calc{
     display: block;
     width: 70px;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: large;
+    box-shadow: 5px 3px #00000066;
+ 
 }
 
 #resultList{
@@ -43,13 +71,6 @@ body{
 /* .line{
     margin-bottom: 10px;
 } */
-
-h1{
-    font-family: 'Water Brush', cursive;/*fonte nao esta funcionando*/
-    text-align: center;
-    font-size: 50px;
-    color: #202020;
-}
 
 /* #icon_churrasco{
     position: absolute;
@@ -73,23 +94,37 @@ img.icon{
 #containerResults{
     width: 70%;
     height: 400px;
-    margin-left: 360px;
+    margin-left: 340px;
     position: relative;
+    background-color: #505050;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid white;
+    border-left: none;
+    top: 150px;
+    left: 2px;
 }
 
 .resultCard{
-    /* display: inline; */
-    border: 2px solid black;
+    border: 2px solid white;
     display: inline-block;
     position: relative;
     border-radius: 50px;
     margin-left: 70px ;
     top:50%;
     transform: translateY(-50%);
+    color: white;
+    background-color: #444;
 }
 
 .iconCard{
     width: 100px;
     padding-left: 60px;
     padding-right: 60px;
+}
+
+.styleP{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style:inherit;
 }

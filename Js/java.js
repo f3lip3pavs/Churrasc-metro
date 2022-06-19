@@ -7,6 +7,10 @@
     var children = document.getElementById("children");
     var time = document.getElementById("time");
 
+    const beer = document.getElementById("beer");
+    const coke = document.getElementById("coke");
+    const meat = document.getElementById("meat");
+
 function calcMeat(){
     if(time.value < 6){
         return adult.value*400 + children.value*200;
@@ -38,9 +42,13 @@ function setList(){
     let totalBeer = calcBeer();
     let totalDrinks = calcDrinks();
 
-    resultList.innerHTML = `<li class="line"> ${totalMeat/1000}Kg de carne</li>`
-    resultList.innerHTML += `<li class="line">${totalBeer/1000}L de cerveja</li>`
-    resultList.innerHTML += `<li class="line">${totalDrinks/1000}L de refrigerante/suco</li>`
+    // resultList.innerHTML = `<li class="line"> ${totalMeat/1000}Kg de carne</li>`
+    // resultList.innerHTML += `<li class="line">${totalBeer/1000}L de cerveja</li>`
+    // resultList.innerHTML += `<li class="line">${totalDrinks/1000}L de refrigerante/suco</li>`
+
+    beer.innerHTML += `<strong><p class="styleP">${totalBeer/1000}L de cerveja</p></strong>`;
+    coke.innerHTML += `<strong><p class="styleP">${totalDrinks/1000}L de refri/suco</p></strong>`;
+    meat.innerHTML += `<strong><p class="styleP">${totalMeat/1000}Kg de carne</p></strong>`;
 
 }
 
@@ -52,4 +60,22 @@ function mouseOver(over){
 function mouseOut(out){
     out.style.backgroundColor = "#f2efdf"
     out.style.width = "100px";
+}
+
+function mouseOverCalc(over){
+    over.style.backgroundColor = "#ddd";
+    over.style.padding = "14px";
+    over.style.marginTop = "25px";
+    
+}
+
+function mouseOutCalc(out){
+    out.style.backgroundColor = "#f2efdf"
+    out.style.padding = "10px"
+    out.style.marginTop = "30px";
+}
+
+function chooseFoodOption(elem){
+    let elemento = document.getElementById("beer");
+    console.log(elem);
 }

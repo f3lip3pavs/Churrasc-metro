@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Churrascômetro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+    <title>Churrascômetro</title>
 </head>
-<body style="background-color: #f2efdf">
+<body style="background-color: #202020">
     <div id="container">
-        <h1>Churrascômetro</h1>
+        <img id="logo" src="./assets/icon_churrasc.png" alt="logo">
         <input id="adult" class="userInput" type="text" placeholder="Adultos">
         <input id="children" class="userInput" type="text" placeholder="Crianças">
         <input id="time" class="userInput" type="text" placeholder="Duração/h">
-        <button id="calc" onclick="setList()">Calcular</button>
+        <button id="calc" onclick="setList()" onmouseover="mouseOverCalc(this)" onmouseout="mouseOutCalc(this)">Calcular</button>
         
         <ul id="resultList"></ul>
     </div>
 
-    <ul id="listInput">
-        <li><img src="./assets/beer.png" class="icon" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"></li>
+    <!-- <ul id="listInput">
+        <li><img src="./assets/beer.png" class="icon" value="1" onclick="chooseFoodOption(this)" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"></li>
         <li><img src="./assets/coke.png" class="icon" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"></li>
         <li><img src="./assets/meat.png" class="icon" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"></li>
-    </ul>
+    </ul> adicionar função futuramente--> 
 
     <div id="containerResults">
-        <div class="resultCard"><img src="./assets/beer.png" class="iconCard"></div>
-        <div class="resultCard"><img src="./assets/coke.png" class="iconCard"></div>
-        <div class="resultCard"><img src="./assets/meat.png" class="iconCard"></div>
+        <div id="beer" class="resultCard"><img src="./assets/beer_white-removebg-preview.png" class="iconCard"></div>
+        <div id="coke" class="resultCard"><img src="./assets/coke_white-removebg-preview.png" class="iconCard"></div>
+        <div id="meat" class="resultCard"><img src="./assets/meat_white2-removebg-preview (1).png" class="iconCard"></div>
     </div>
     
     <script src="./Js/java.js"></script>
